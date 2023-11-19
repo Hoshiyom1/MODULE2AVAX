@@ -1,4 +1,4 @@
-# Function Frontend
+# Hoshiyomi Coins Frontend Project
 
 Starter Next/Hardhat Project
 
