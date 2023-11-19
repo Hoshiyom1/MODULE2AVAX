@@ -5,8 +5,8 @@ Starter Next/Hardhat Project
 ## Description
 
 This project serves as a starting point for utilizing Next.js with Hardhat for Ethereum development. It integrates frontend and smart contract functionalities.
-# Functionalities
-Functions:
+## Functionalities
+#Functions:
 
 ## getBalance():
 -A view function allowing anyone to check the contract's current balance.
