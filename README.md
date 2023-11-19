@@ -5,7 +5,16 @@ Starter Next/Hardhat Project
 ## Description
 
 This project serves as a starting point for utilizing Next.js with Hardhat for Ethereum development. It integrates frontend and smart contract functionalities.
+# Functionalities
+Functions:
 
+##getBalance(): A view function allowing anyone to check the contract's current balance.
+
+##deposit(uint256 _amount): Allows the owner to deposit additional funds into the contract. It increases the contract's balance by the provided _amount.
+
+##withdraw(uint256 _withdrawAmount): Permits the owner to withdraw funds from the contract. It checks if the requested withdrawal amount is available and reverts if the balance is insufficient.
+
+##burnAllCoins(uint256 n): Allows the owner to burn the entire balance. However, the current implementation includes an issue - the while loop checking for balance greater than zero could potentially result in an infinite loop, as the balance is set to zero before the loop. The loop condition should likely check for balance > n instead.
 ## Getting Started
 
 ### Installing
